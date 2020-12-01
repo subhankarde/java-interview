@@ -1,6 +1,8 @@
 package com.javainterview.Anagrams;
 
-
+/*
+https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem
+ */
 import java.util.*;
 
 public class SherlockAndAnagrams {
@@ -28,6 +30,7 @@ public class SherlockAndAnagrams {
             }
         }
 
+        //This algo I need to check
         for (String pair : anagram.keySet()) {
             int c = anagram.get(pair);
             count = count + (c * (c - 1)) / 2;
